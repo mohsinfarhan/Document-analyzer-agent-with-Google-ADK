@@ -1,0 +1,17 @@
+[project]
+name = "finance-rag-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "fastapi>=0.135.1",
+    "google-adk>=1.27.1",
+    "google-cloud-documentai>=3.11.0",
+    "google-genai>=1.66.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.32.5",
+    "sentence-transformers>=5.2.3",
+    "uvicorn>=0.41.0",
+]
